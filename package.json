@@ -1,0 +1,43 @@
+{
+    "name": "fruitbasket-theme",
+    "displayName": "Fruitbasket Theme",
+    "description": "Berry-inspired theme for VSCode",
+    "version": "1.0.5",
+    "publisher": "charlotte-dev",
+    "repository": {
+        "type": "git",
+        "url": "https://git.charlotte.sh/lotte/fruitbasket"
+    },
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "light theme",
+        "pink"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#3D1632",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fruitbasket Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fruitbasket-dark.json"
+            },
+            {
+                "label": "Fruitbasket Light",
+                "uiTheme": "vs",
+                "path": "./themes/fruitbasket-light.json"
+            }
+        ]
+    },
+    "license": "MIT"
+}
