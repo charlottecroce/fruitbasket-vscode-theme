@@ -2,7 +2,7 @@
     "name": "fruitbasket-theme",
     "displayName": "Fruitbasket Theme",
     "description": "Berry-inspired theme for VSCode",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "publisher": "charlotte-dev",
     "repository": {
         "type": "git",
